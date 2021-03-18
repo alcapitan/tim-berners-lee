@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*
+{
+     font-family: 'Montserrat', Arial, monospace;
+     word-wrap: break-word;
+}
+
+/* En tête */
+
+header
+{
+     margin-top : -8px;
+     margin-left : -8px;
+     margin-right : -8px;
+}
+
+header div
+{
+     /*background-color: gray; */
+     background : url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sir_Tim_Berners-Lee.jpg/800px-Sir_Tim_Berners-Lee.jpg);
+     height : 500px;
+}
+
+header h1
+{
+     font-size : 32px;
+     color : white;
+     padding : 10px;
+     position : absolute;
+     top : 0px;
+     margin : 0px;
+     background-color: #FFFFFF70;
+     width : 100%;
+}
+
+header p
+{
+     margin : 0px;
+     font-size : 16px;
+     color : gray;
+     right : 0px;
+     position : absolute;
+     padding  : 10px;
+     background : linear-gradient(transparent, white 60%);
+     transform : translateY(-38px);
+}
+
+header p a
+{
+     color : gray;
+}
+
+/* Contenu */
+
+section
+{
+     display : flex;
+     justify-content: space-around;
+     flex-wrap : wrap;
+     margin-top : 10px;
+}
+
+article
+{
+     border-top : 5px solid black;
+     border-radius: 5px;
+     margin : 5px;
+     width : 30%;
+     min-height : 100px;
+     padding : 5px;
+     height : fit-content;
+     background-color: #e6e6e6;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     padding-right : 10px;
+}
+
+
+article h2
+{
+     margin : 10px;
+}
+
+article h3
+{
+     margin-left : 10px;
+}
+
+article p
+{
+     margin-left : 15px;
+}
+
+article a
+{
+	color : black;
+}
+
+article i, article i a
+{
+     color : gray;
+}
+
+article img
+{
+     width : 100%;
+     border-radius : 20px;
+}
+
+/* Pied de page */
+
+footer
+{
+     background-color: gray;
+     margin-left : -8px;
+     margin-right : -8px;
+     margin-bottom : -8px;
+     padding : 10px;
+     margin-top : 10px;
+     height : 54px;
+}
+
+footer em
+{
+     color : white;
+     text-align : right;
+}
+
+footer div
+{
+     display : block;
+     margin : 5px;
+     position : absolute;
+}
