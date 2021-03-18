@@ -18,7 +18,7 @@ header
 header div
 {
      /*background-color: gray; */
-     background : url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sir_Tim_Berners-Lee.jpg/800px-Sir_Tim_Berners-Lee.jpg);
+     background : url(TimBernersLeeBackground.webp);
      height : 500px;
 }
 
@@ -120,7 +120,7 @@ footer
      height : 54px;
 }
 
-footer em
+footer em, footer em a
 {
      color : white;
      text-align : right;
